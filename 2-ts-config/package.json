@@ -1,0 +1,24 @@
+{
+  "name": "typescript-eslint-project",
+  "version": "1.0.0",
+  "description": "TypeScript project with ESLint and Airbnb configuration",
+  "main": "index.js",
+  "scripts": {
+    "tslint": "eslint . --ext .ts,.tsx",
+    "tslint:fix": "eslint . --ext .ts,.tsx --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.1.0",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "typescript": "^5.3.3"
+  }
+}
+
