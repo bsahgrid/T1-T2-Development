@@ -1,0 +1,23 @@
+{
+  "name": "capstone_typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "start": "node server.js",
+    "dev": "npm run build && npm start"
+  },
+  "keywords": [],
+  "author": "Pradeep Kushwaha",
+  "license": "ISC",
+  "description": "This is a capstone project for the Typescript course",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "typescript": "^5.0.0"
+  }
+}
